@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+
+# Test results
+/coverage/
+
+# Local environment variables
+.env
+.env*.local
+!/.env.example
+
+# IDE / Editor specific
+# /.vscode/ # Uncomment if you don't want to version your VS Code settings
+*.swp
+*.swo
+/.idea/
+
+# macOS
+.DS_Store
+._*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Firebase
+# .firebase/ # Uncomment if you manage firebase stuff outside of the project that shouldn't be versioned.
+# firebase.json # Usually versioned, but uncomment if you have local-only firebase configs.
+
+# TypeScript
+*.tsbuildinfo
